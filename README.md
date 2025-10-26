@@ -11,6 +11,9 @@ conda install -c conda-forge numpy opencv -y
 # 3) 用 pip 安裝 MediaPipe（conda 沒有官方包）
 pip install mediapipe
 
-# 4) 進入你的專案資料夾並執行前面給的 app
+# 4) 安裝pyQt5/確認其他套件是否安裝
+pip install pyqt5 opencv-python mediapipe ultralytics numpy
+
+# 5) 進入你的專案資料夾並執行前面給的 app
 python app_pose_cpu.py
 ```
